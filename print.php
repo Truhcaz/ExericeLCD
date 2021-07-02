@@ -27,7 +27,7 @@ foreach($nbarr as $n){
     foreach($json as $R=>$D){
         echo "<td>"; 
             foreach($D as $key=>$Value){
-                if($R==$n-1 && ($key=="couche1" || $key=="couche2" || $key=="couche3")){
+                if($R==$n && ($key=="couche1" || $key=="couche2" || $key=="couche3")){
                     echo "<br>$Value";
                 }
              }
